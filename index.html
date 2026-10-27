@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+</head>
+ <title>Dorcas - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div id="main-container">
+        <nav>
+            <h2>Dorcas</h2>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#about">About</a></li>
+               <li><a href="#education">Education</a></li> 
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> 
+      <!-- PROFILE SECTION  -->
+        <section id="profile">
+            <div class="section-wrapper">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="Profile.jpeg" alt="Dorcas Profile">
+                    </div>
+                    <div class="profile-info">
+                        <h1>Hello, I'm Dorcas</h1>
+                        <h3>Software Developer | Web Designer</h3>
+                     Passionate about creating beautiful and functional web experiences.</p>
+                        <div class="profile-btns">
+                            <button class="primary-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hire Me</button>
+                           <a href="Dorcas-CV.pdf" download="Dorcas-CV.pdf" class="secondary-btn" style="text-decoration:none; display:inline-block;">Download CV</a> 
+                        </div>
+                    </div>   
+                    </div>
+        </section>
+
+
+   <!-- 1. ABOUT ME SECTION -->
+        <section id="about">
+            <div class="section-wrapper">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>Hello! I'm Dorcas, a passionate Software Engineering student at Mediacrest Training Institute.</p>
+                    <p>I love building clean, responsive and user-friendly websites using HTML, CSS, and JavaScript. My goal is to become a full-stack developer.</p>
+                </div>
+            </div>
+        </section>
+  <!-- 2. SKILLS SECTION -->
+        <section id="skills">
+            <div class="section-wrapper">
+                <h2>My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-card">HTML5</div>
+                    <div class="skill-card">CSS3</div>
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">Graphics Design</div>
+            <div class="skill-card">Photoshop</div>
+                    <div class="skill-card">Git & GitHub</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+    <section id="education">
+        <h2>My Education</h2>
+        <div class="education-container">
+            <div class="edu-card">
+                <h3>Certificate in Software Engineering</h3>
+                <h4>Mediacrest Training Institute | 2026- Present</h4>
+                <p>Currently pursuing Certificate in Software Engineering. Learning Web Development, Data Structures, Databases and System Analysis.</p>
+            </div>
+          <div class="edu-card">
+                <h3>Certificate in Graphics Design</h3>
+                <h4>Makueni Vocational Centre | Completed</h4>
+                <p>Certified in Graphics Design. Skilled in Adobe Photoshop, Illustrator, Logo Design, Poster Design and Branding.</p>
+                <span class="edu-tag">Graphics Design</span>
+                <span class="edu-tag">Photoshop</span>
+                <span class="edu-tag">Illustrator</span>
+            </div>  
+            </div>
+        </div>
+    </section>
+
+            <div class="edu-card">
+                <h3>Kenya Certificate of Secondary Education (KCSE)</h3>
+                <h4>High School | 2020 - 2023</h4>
+                <p>Completed KCSE with focus on Computer Studies and Mathematics.</p>
+            </div>
+
+            <div class="edu-card">
+                <h3>Certifications</h3>
+                <h4>Online Learning | 2026</h4>
+                <p>Responsive Web Design - freeCodeCamp<br>
+                   JavaScript Basics - Mediacrest</p>
+            </div>
+        </div>
+    </section> 
+                    
+
+
+        <!-- 3. PROJECTS SECTION -->
+        <section id="projects">
+            <div class="section-wrapper">
+                <h2>My Projects<h2>
+                  <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal portfolio built with HTML, CSS, and JavaScript. Includes dark mode and interactive greetings.</p>
+            <strong>Tech: HTML, CSS & JavaScript</strong><br><br>
+            <button class="viewBtn" data-link="https://github.com/">View Project</button>
+            <button class="deleteBtn">Delete</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Weather App</h3>
+            <p>Fetches real-time weather data using API and displays temperature, humidity and location.</p>
+            <strong>Tech: JavaScript & API</strong><br><br>  
+                </h2>
+                <button class="viewBtn" data-link="https://weather.com/">View Project</button>
+            <button class="deleteBtn">Delete</button>
+        </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>To-Do List App</h3>  
+                        To-do app with add, delete and mark as done features using LocalStorage.</p>
+                        <p><strong>Tech: JavaScript & LocalStorage</strong></p>
+                        <div class="btn-group">
+                            <button class="viewBtn">View Project</button>
+                            <button class="deleteBtn">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. CONTACT SECTION -->
+        <section id="contact">
+            <div class="section-wrapper">
+                <h2>Contact Me</h2>
+                <div class="contact-content">
+                    <p>Email: <strong>duge8385@gmail.com</strong></p>
+                    <p>Phone: <strong>+254 768519226</strong></p>
+                    <div class="contact-form">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <textarea placeholder="Your Message"></textarea>
+                        <button id="sendBtn">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="footer">
+            <footer>© 2026 Dorcas. All Rights Reserved.</footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

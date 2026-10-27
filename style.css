@@ -1,0 +1,66 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+body{background:#f8f9fa;}
+nav{display:flex;justify-content:space-between;padding:20px;background:#111;color:white;}
+nav ul{display:flex;list-style:none;gap:20px;}
+nav a{color:white;text-decoration:none;}
+.section-wrapper{padding:60px 20px;max-width:900px;margin:auto;text-align:center;}
+.section-wrapper h2{margin-bottom:20px;font-size:28px;color:#333;}
+#about{background:white;}
+#skills{background:#eef1ff;}
+.skills-container{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:20px;}
+.skill-card{background:white;padding:15px 20px;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.1);font-weight:bold;}
+#projects{background:white;}
+.project-card{background:#f9f9f9;padding:20px;margin:15px 0;border-radius:10px;text-align:left;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+.btn-group{margin-top:10px;}
+.viewBtn{background:#667eea;color:white;border:none;padding:8px 15px;border-radius:5px;cursor:pointer;}
+.deleteBtn{background:#ff4d4d;color:white;border:none;padding:8px 15px;border-radius:5px;cursor:pointer;margin-left:5px;}
+#contact{background:#111;color:white;}
+.contact-form{display:flex;flex-direction:column;gap:10px;max-width:400px;margin:20px auto;}
+.contact-form input,.contact-form textarea{padding:10px;border-radius:5px;border:none;}
+#sendBtn{background:#667eea;color:white;border:none;padding:10px;border-radius:5px;cursor:pointer;}
+#footer{text-align:center;padding:20px;background:#000;color:white;}
+
+/* PROFILE SECTION */
+#profile { background: linear-gradient(to right, #667eea, #764ba2); color: white; }
+.profile-container { display: flex; align-items: center; justify-content: center; gap: 40px; flex-wrap: wrap; }
+.profile-image img { width: 200px; height: 200px; border-radius: 50%; border: 5px solid white; object-fit: cover; box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+.profile-info { text-align: left; max-width: 400px; }
+.profile-info h1 { font-size: 36px; margin-bottom: 10px; }
+.profile-info h3 { font-weight: normal; opacity: 0.9; margin-bottom: 15px; }
+.profile-btns { margin-top: 20px; }
+.primary-btn, .secondary-btn { padding: 10px 20px; border-radius: 5px; border: none; cursor: pointer; margin-right: 10px; font-weight: bold; }
+.primary-btn { background: white; color: #764ba2; }
+.secondary-btn { background: transparent; color: white; border: 2px solid white; }
+
+.edu-tag { display:inline-block; background:#667eea; color:white; padding:3px 10px; border-radius:20px; font-size:11px; margin:5px 3px 0 0; }
+
+/* EDUCATION SECTION */
+#education { background: white; padding: 60px 20px; }
+.education-container { display: flex; flex-direction: column; gap: 20px; max-width: 800px; margin: auto; text-align: left; }
+.edu-card { background: #f9f9ff; border-left: 5px solid #667eea; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+.edu-card h3 { color: #333; font-size: 18px; margin-bottom: 5px; }
+.edu-card h4 { color: #667eea; font-size: 14px; font-weight: normal; margin-bottom: 10px; }
+.edu-card p { color: #555; font-size: 14px; line-height: 1.6; }
+
+/* PROJECTS - FIXED FONT SIZE */
+#projects { background: white; }
+.project-card { background:#f9f9f9; padding:20px; border-radius:10px; text-align:left; box-shadow:0 2px 8px rgba(0,0,0,0.08); margin-top:20px; max-width:700px; margin-left:auto; margin-right:auto; }
+.project-card h3 { font-size:16px; margin-bottom:5px; color:#222; }
+.project-card p { font-size:13px; color:#555; line-height:1.5; margin-bottom:5px; }
+.project-card strong { font-size:12px; color:#333; }
+.viewBtn { background:#667eea; color:white; border:none; padding:6px 12px; border-radius:5px; cursor:pointer; font-size:12px; }
+.deleteBtn { background:#ff4d4d; color:white; border:none; padding:6px 12px; border-radius:5px; cursor:pointer; margin-left:5px; font-size:12px; }
+
+/* PROJECTS - FIXED FONT SIZE */
+#projects { background: white; }
+.project-card { background:#f9f9f9; padding:20px; border-radius:10px; text-align:left; box-shadow:0 2px 8px rgba(0,0,0,0.08); margin-top:20px; max-width:700px; margin-left:auto; margin-right:auto; }
+.project-card h3 { font-size:16px; margin-bottom:5px; color:#222; }
+.project-card p { font-size:13px; color:#555; line-height:1.5; margin-bottom:5px; }
+.project-card strong { font-size:12px; color:#333; }
+.viewBtn { background:#667eea; color:white; border:none; padding:6px 12px; border-radius:5px; cursor:pointer; font-size:12px; }
+.deleteBtn { background:#ff4d4d; color:white; border:none; padding:6px 12px; border-radius:5px; cursor:pointer; margin-left:5px; font-size:12px; }
+
+/* Make About and Education also smaller on mobile */
+#about p, .edu-card p { font-size:13px; line-height:1.6; }
+.edu-card h3 { font-size:14px; }
+.edu-card h4 { font-size:11px; }
